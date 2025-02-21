@@ -1,0 +1,5 @@
+x, y, z = map(float, input("Nhập tọa độ x, y, z: ").split())
+print(f"Với tọa độ là: ({x},{y},{z}) trong không gian Oxyz, ta có:")
+print(f"Điểm đối xứng qua mặt phẳng Oxy là: ({x},{y},{-z})")
+print(f"Điểm đối xứng qua mặt phẳng Oxz là: ({x},{-y},{z})")
+print(f"Điểm đối xứng qua mặt phẳng Oyz là: ({-x},{y},{z})")
