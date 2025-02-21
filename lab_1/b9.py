@@ -1,0 +1,10 @@
+# câu 9 
+x = float(input("nhập tọa độ x: "))
+y = float(input("nhập tọa độ y: "))
+z = float(input("nhập tọa độ z: "))
+doi_xung_Oxy = (x, y , -z)
+doi_xung_Oxz = (x, -y , z)
+doi_xung_Oyz = ( -x, y, z)
+print(f"điểm đối xứng qua mặt phẳng Oxy: {doi_xung_Oxy}")
+print(f"điểm đối xứng qua mặt phẳng Oxz: {doi_xung_Oxz}")
+print(f"điểm đối xứng qua mặt phẳng Oyz: {doi_xung_Oyz}")
