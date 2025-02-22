@@ -1,0 +1,7 @@
+x, y, z = map(float,input('Xin mời nhập toạ độ điểm B (x y z): ').split())
+B_Oxy = (x, y, -z)
+B_Oxz = (x, -y, z)
+B_Oyz = (-x, y, z)
+print(f'Điểm đối xứng với B qua mặt phẳng Oxy là {B_Oxy}')
+print(f'Điểm đối sứng với B qua mặt phẳng Oxz là {B_Oxz}')
+print(f'Điểm đối xứng với B qua mặt phẳng Oyz là {B_Oyz}')
