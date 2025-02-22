@@ -1,6 +1,7 @@
-d = int(input("Nhập số ngày: "))
-h = int(input("Nhập số giờ: "))
-m = int(input("Nhập số phút: "))
-s = int(input("Nhập số giây: "))
-tong_so_giay = d * 86400 + h * 3600 + m * 60 + s
-print(f"Tổng số giây: {tong_so_giay}")
+sinhvien = {}
+sinhvien['mã sinh viên']=input('Nhập mã sinh viên: ')
+sinhvien['họ tên sinh viên']=input('Nhập họ tên: ')
+sinhvien['quê quán']=input('Nhập quê quán: ')
+sinhvien['năm sinh']=input('Nhập năm sinh: ')
+sinhvien['điểm trung bình các năm học']=input('Nhập điểm trung bình các năm học: ')
+print('Thông tin sinh viên vừa nhập: ',sinhvien)
