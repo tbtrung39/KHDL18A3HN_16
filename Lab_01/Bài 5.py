@@ -1,0 +1,7 @@
+a1= int( input(" Nhập hoành độ của vecto a: "))
+a2= int( input(" Nhập tung độ của vecto a: "))
+b1= int( input(" Nhập hoành độ của vecto b: "))
+b2= int( input(" Nhập tung độ của vecto b: "))
+print(" Vecto a= ", a1, ",", a2) 
+print(" Vecto b= ", b1, ",", b2)
+print(" Tích vô hướng của a và b= ", a1* b1+ a2* b2)

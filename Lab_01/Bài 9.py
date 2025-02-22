@@ -1,0 +1,6 @@
+a= int( input(" Nhập hoành độ: "))
+b= int( input(" Nhập tung độ: "))
+c= int( input(" Nhập cao độ: "))
+print(" Tọa độ của điểm đối xứng qua mặt phẳng Oxy: ", a, ",", b, ",", -c)
+print(" Tọa độ của điểm đối xứng qua mặt phẳng Oxz: ", a, ",", -b, ",", c)
+print(" Tọa độ của điểm đối xứng qua mặt phẳng Oyz: ", -a, ",", b, ",", c)
