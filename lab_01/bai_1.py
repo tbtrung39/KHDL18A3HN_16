@@ -1,0 +1,7 @@
+ma_sv = input("nhập mã số sinh viên:")
+ho_ten = input("nhập họ tên:")
+que_quan = input("nhập quê quán:")
+nam_sinh = input("nhập năm sinh:")
+diem_trung_binh = float(input("nhập điểm trung bình:"))
+print("thông tin sinh viên")
+print(f"mã sv:{ma_sv}, họ tên:{ho_ten}, quê quán:{que_quan}, năm sinh:{nam_sinh}, điểm trung bình:{diem_trung_binh:.2f}")
