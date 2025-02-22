@@ -1,0 +1,11 @@
+ma_sinh_vien=int(input("nhập mã sinh viên"))
+ho_ten=input(" ho ten cua ban la")
+que_quan=input(" que quan của ban la")
+nam_sinh=int(input("nam sinh của ban la"))
+diem_tb=float(input("diem trung binh cua ban la"))
+
+print("\nThong tin sinh vien")
+print(f"ma sinh vien:{ma_sinh_vien}")
+print(f"ho ten sinh vien:{ho_ten}")
+print(f"nam sinh cua sinh vien:{nam_sinh}")
+print(f"diem trung binh cua sinh vien:{diem_tb}")
