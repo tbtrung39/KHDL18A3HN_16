@@ -1,0 +1,12 @@
+# bài 1 : viết chương trình nhập vào thông tin của một sinh viên bao gồm : mã số sinh viên , họ tên , quê quán , năm sinh, điẻm trung bình các môn học; xuất ra thông tin của sinh viên vừa nhập
+ma_so = input('Nhập mã số sinh viên: ')
+ho_ten = input('Nhập họ tên: ')
+que_quan = input('Nhập quê quán: ')
+nam_sinh = input('Nhập năm sinh: ')
+diem_tb = float(input('Nhập điểm trung bình các năm học: '))
+print('=====Thông tin sinh viên====')
+print(f'Mã số sinh viên: {ma_so}')
+print(f'họ tên: {ho_ten}')
+print(f'Quê quán: {que_quan}')
+print(f'Năm sinh: {nam_sinh}')
+print(f'Điểm tung bình các năm học: {diem_tb}')
