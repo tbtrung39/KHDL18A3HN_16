@@ -1,0 +1,12 @@
+ma_sv = input("Nhập mã sinh viên: ")
+ho_ten = input("Nhập họ và tên: ")
+que_quan = input("Nhập quê quán: ")
+nam_sinh = input("Nhập năm sinh: ")
+diem_tb_cac_nam = input("Nhập điểm trung bình: ")
+print("\n--- Thông tin sinh viên ---")
+print(f"Mã số sinh viên: {ma_sv}")
+print(f"Họ và tên: {ho_ten}")
+print(f"Quê quán: {que_quan}")
+print(f"Năm sinh: {nam_sinh}")
+print(f"Điểm trung bình các năm học: {diem_tb_cac_nam}")
+
