@@ -1,24 +1,36 @@
-n = int(input("Nhap so hang cua tam giac: "))
-
-# tam giac a
-print("Tam giac sao dac:")
-for i in range(1, n + 1):
-    print(" " * (n - i) + "*" * (2 * i - 1))
-
-#  tam giac b
-print("\nTam giac sao rong:")
-for i in range(1, n + 1):
-    if i == 1 or i == n:
-        print(" " * (n - i) + "*" * (2 * i - 1))
-    else:
-        print(" " * (n - i) + "*" + " " * (2 * i - 3) + "*")
-
+h=int(input('Nhap so hang cua tam giac: '))
+#tam giac a
+k=2*h-2 #xac dinh khoang trang
+for dong in range(1,h+1):
+    for cot in range(1,k+1):
+        print(" ",end="")
+    for cot in range(1,2*dong):
+        if cot==1 or cot==2*dong-1 or dong==h:
+                print("*",end="")
+        else:
+                print(" ",end="")
+    k=k-1
+    print("\r")
+#tam giac b
+k=2*h-2 #xac dinh khoang trang
+for dong in range(1,h+1):
+    for cot in range(1,k+1):
+        print(" ",end=" ")
+    for cot in range(1,2*dong):
+        if cot==1 or cot==2*dong-1 or dong==h:
+                print("*",end=" ")
+        else:
+                print(" ",end=" ")
+    k=k-1
+    print("\r")
 #tam giac c
-print("\nTam giac sao rong kieu khac:")
-for i in range(1, n + 1):
-    if i == 1:
-        print(" " * (n - i) + "*")
-    elif i == n:
-        print(" " * (n - i) + "*" * (2 * i - 1))
+k=2*h-2 #xac dinh khoang trang
+for dong in range(1,h+1):
+    for cot in range(1,k+1):
+        print(" ",end=" ")
+    for cot in range(1,2*dong):
+        print("*",end=" ")
     else:
-        print(" " * (n - i) + "*" + " " * (2 * i - 3) + "*")
+            print(" ",end=" ")
+    k=k-1
+    print("\r")
