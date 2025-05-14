@@ -1,0 +1,15 @@
+import doicoso2
+
+s = input("Nhập chuỗi ký tự: ")
+s = doicoso2.loc_ky_tu_hop_le(s)
+print("Chuỗi sau khi loại bỏ ký tự không hợp lệ:", s)
+print("Hệ cơ số của chuỗi là:", doicoso2.xac_dinh_he_co_so(s))
+
+print("Nhập chuỗi cơ số 2:")
+print("=>", doicoso2.co_so_2_sang_10(input()))
+
+print("Nhập chuỗi cơ số 8:")
+print("=>", doicoso2.co_so_8_sang_10(input()))
+
+print("Nhập chuỗi cơ số 16:")
+print("=>", doicoso2.co_so_16_sang_10(input()))
