@@ -1,5 +1,0 @@
-NV02, Le Thi B, 6,958,000 VND
-NV04, Pham Thi D, 6,662,000 VND
-NV05, Do Van E, 6,660,000 VND
-NV01, Nguyen Van A, 6,215,000 VND
-NV03, Tran Van C, 5,366,000 VND
