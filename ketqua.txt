@@ -1,0 +1,3 @@
+102 NguyenVanB 9.0
+101 NguyenVanA 8.5
+103 NguyenVanC 7.5
