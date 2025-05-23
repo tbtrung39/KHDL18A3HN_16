@@ -1,0 +1,7 @@
+x,y,z = map(float, input("Nhập tọa độ điểm x, y, z: ").split())
+doi_xung_Oxy = (x,y,-z)
+doi_xung_Oxz = (x,-y,z)
+doi_xung_Oyz = (-x,y,z)
+print(f"Điểm đối xứng của A qua mặt phẳng Oxy là: {doi_xung_Oxy}")
+print(f"Điểm đối xứng của A qua mặt phẳng Oxz là: {doi_xung_Oxz}")
+print(f"Điểm đối xứng của A qua mặt phẳng Oyz là: {doi_xung_Oyz}")
