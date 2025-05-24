@@ -1,0 +1,11 @@
+import random
+n=int(input('nhap so sinh vien tham gia'))
+A=set(random.choices(range(2,n),k=7))
+B=set(random.choices(range(2,n),k=6))
+C=set(random.choices(range(2,n),k=5))
+print('Tap hop a la sinh vien thi C++',A)
+print('Tap hop B la sinh vien thi Java',B)
+print('Tap hop C la sinh vien thi python',C)
+print('Tap hop sinh vien thi 3 ngon ngu',A&B&C)
+print('Tap hop sinh vien thi 2 ngon ngu',(A&B).union(A&C).union(B&C))
+print('Tap hop sinh vien thi 1 ngon ngu',A.difference(B).difference(C))
