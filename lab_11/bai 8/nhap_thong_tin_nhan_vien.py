@@ -1,0 +1,14 @@
+import csv
+data = [
+    ['NV01', 'Nguyen Van A', 'TP', '3.5'],
+    ['NV02', 'Le Thi B', 'PP', '4.2'],
+    ['NV03', 'Tran Van C', 'NV', '3.4'],
+    ['NV04', 'Pham Thi D', 'TP', '3.8'],
+    ['NV05', 'Do Van E', 'PP', '4.0'],
+]
+
+with open('dsnhanvien.csv', 'w', newline='', encoding='utf-8') as f:
+    writer = csv.writer(f)
+    writer.writerows(data)
+
+print("Đã tạo file dsnhanvien.csv")
